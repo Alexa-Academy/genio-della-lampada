@@ -1,0 +1,20 @@
+{
+  "name": "genio-della-lampada",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploydev": "sls deploy --verbose --stage dev",
+    "deploy": "sls deploy --verbose --stage prod",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "<YOUR-NAME>",
+  "license": "ISC",
+  "dependencies": {
+    "ask-sdk-core": "^2.12.1",
+    "ask-sdk-model": "^1.57.0",
+    "aws-sdk": "^2.1331.0",
+    "openai": "^3.2.1",
+    "source-map-support": "^0.5.21"
+  }
+}
